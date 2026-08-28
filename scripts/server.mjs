@@ -1,8 +1,8 @@
 import { createReadStream, statSync } from 'node:fs'
 import { createServer } from 'node:http'
-import { extname, join, normalize } from 'node:path'
+import { extname, join, normalize, resolve } from 'node:path'
 
-const root = process.cwd()
+const root = resolve(process.cwd(), process.argv[2] || '.')
 const types = { '.css': 'text/css', '.html': 'text/html', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml' }
 const isFile = (file) => {
   try {

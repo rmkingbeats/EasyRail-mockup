@@ -1,5 +1,3 @@
-import './styles.css'
-
 const NAV_ITEMS = [
   { href: '/book', label: 'Book a train' },
   { href: '/pnr', label: 'PNR status' },

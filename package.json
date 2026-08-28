@@ -6,6 +6,6 @@
   "scripts": {
     "dev": "node scripts/server.mjs",
     "build": "node scripts/build.mjs",
-    "preview": "node scripts/server.mjs"
+    "preview": "node scripts/server.mjs dist"
   }
 }

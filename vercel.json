@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".",
+  "rewrites": [
+    { "source": "/book", "destination": "/index.html" },
+    { "source": "/pnr", "destination": "/index.html" },
+    { "source": "/tickets", "destination": "/index.html" },
+    { "source": "/wallet", "destination": "/index.html" },
+    { "source": "/account", "destination": "/index.html" },
+    { "source": "/food", "destination": "/index.html" }
+  ]
+}
